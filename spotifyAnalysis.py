@@ -22,8 +22,6 @@ import random
 import pandas as pd
 from scipy.stats import norm
 
-np.random.seed(15898164)
-
 data = pd.read_csv('spotify52kData.csv')
 data = np.vstack([data.columns, data.values])
 
